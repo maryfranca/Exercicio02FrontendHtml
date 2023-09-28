@@ -1,0 +1,72 @@
+<!-- 
+Edit do Professor: Uma pequeno ALERTA para você que está baixando o projeto e não assistiu o vídeo, 
+esse site foi estruturado utilizando table, mas não é a recomendação para desenvolvimento de sites
+ profissionais, só utilizei nesse projeto para testar os conhecimentos já adquiridos até o momento 
+ no curso, mais adiante iremos criar sites mais profissionais utilizando html e css.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Calibri, Arial, sans-serif;
+        }
+
+        input[type="text"] {
+            width: 380px;
+        }
+
+        /*par colocar largura no campo do nome emal comentario*/
+    </style>
+    <!--style é na cabeça-->
+</head>
+
+<body>
+    <tr>
+        <td colspan="2">
+
+            <h2>Deixe um comentário</h2>
+           
+            <form>
+
+                <strong>Nome:</strong> <br>
+                <input type="text" name="nome"><br>
+                <!--tipo "text" é usado para campos de entrada de texto de uma única linha.-->
+
+
+                <strong>Email: <br>
+                    <input type="text" name="email"><br>
+                    <!--para colocar o quadradinho-->
+
+
+                    <strong>Website: <br>
+                        <input type="text" name="email"><br>
+
+
+                        <strong>Comentário: <br>
+                            <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+                            <!-- Os atributos rows e cols definem o número de linhas e colunas visíveis na área de texto.
+                                Você pode ajustar esses valores conforme necessário.text are é aquele negocio que pode
+                            mexer no mouse-->
+
+        <td colspan="2" align="center">
+            <h4>Observação: Seu comentário será publicado após passar pelo moderador</h4>
+        </td>
+
+        <input type="submit" value="Enviar">
+
+        </form>
+
+
+        </td>
+    </tr>
+
+
+    </table>
+
+</body>
+
+</html>
